@@ -1,0 +1,20 @@
+{
+    "name": "zm/belajar-php-composer",
+    "description": "Belajar PHP Composer",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Zm\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ZM",
+            "email": "putraikim.n9@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : ">=8.0",
+        "monolog/monolog" : "3.7.0"
+    }
+}
